@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.HexContainer {
+    background-color: #005490;
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+h1 {
+    font-size: 20px;
+}
+
+.hex {
+    font-size: 25px;
+    border: 1px solid white;
+    padding: 5px 8px;
+}
+
+hr {
+    width: 100%;
+    color: white;
+}
+
+button {
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-weight: 700;
+    border: none;
+}
